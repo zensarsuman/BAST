@@ -1,4 +1,5 @@
-pipeline { agent any
+pipeline { 
+agent any
 
 environment {
     TRIVY_VERSION = "0.51.1"
