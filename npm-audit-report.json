@@ -1,0 +1,23 @@
+{
+  "advisories": {
+    "100001": {
+      "module_name": "axios",
+      "severity": "high",
+      "vulnerable_versions": "<=0.21.0",
+      "patched_versions": ">=0.21.1",
+      "title": "Server-side request forgery",
+      "url": "https://github.com/advisories/GHSA-4w2v-q235-vp99"
+    }
+  },
+  "metadata": {
+    "dependencies": 32,
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 1,
+      "critical": 0
+    }
+  }
+}
+

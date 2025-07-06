@@ -1,0 +1,14 @@
+{
+  "Misconfigurations": [
+    {
+      "Type": "Dockerfile",
+      "CheckID": "DS001",
+      "Severity": "HIGH",
+      "Message": "Root user used in final image",
+      "PrimaryURL": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+      "File": "Dockerfile",
+      "Line": 2
+    }
+  ]
+}
+

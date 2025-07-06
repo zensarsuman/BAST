@@ -1,0 +1,17 @@
+{
+  "dependencies": [
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "version": "2.9.8",
+      "vulnerabilities": [
+        {
+          "cve": "CVE-2019-12086",
+          "severity": "High",
+          "description": "Deserialization vulnerability in Jackson-databind",
+          "reference": "https://nvd.nist.gov/vuln/detail/CVE-2019-12086"
+        }
+      ]
+    }
+  ]
+}
+

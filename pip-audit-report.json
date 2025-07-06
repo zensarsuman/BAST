@@ -1,0 +1,14 @@
+[
+  {
+    "dependency": {
+      "name": "requests",
+      "version": "2.18.0"
+    },
+    "vulnerability": {
+      "id": "GHSA-xxxx",
+      "description": "Exposure of sensitive data when using requests <2.20",
+      "fix_version": "2.20.0"
+    }
+  }
+]
+

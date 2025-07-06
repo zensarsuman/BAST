@@ -1,0 +1,12 @@
+{
+  "Misconfigurations": [
+    {
+      "CheckID": "K8S-001",
+      "Message": "No resource limits defined",
+      "Severity": "MEDIUM",
+      "File": "docker-compose.yaml",
+      "Line": 8
+    }
+  ]
+}
+

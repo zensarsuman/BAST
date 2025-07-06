@@ -1,0 +1,31 @@
+{
+  "results": {
+    "detectors": [
+      {
+        "check": "reentrancy",
+        "description": "Potential reentrancy vulnerability",
+        "impact": "High",
+        "elements": [
+          {
+            "name": "withdraw",
+            "contract": "Vault",
+            "source": "contracts/Vault.sol:35"
+          }
+        ]
+      },
+      {
+        "check": "unchecked-transfer",
+        "description": "Unchecked low-level call",
+        "impact": "Medium",
+        "elements": [
+          {
+            "name": "fallback",
+            "contract": "Receiver",
+            "source": "contracts/Receiver.sol:19"
+          }
+        ]
+      }
+    ]
+  }
+}
+

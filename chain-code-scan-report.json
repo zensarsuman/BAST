@@ -1,0 +1,15 @@
+{
+  "analysis": {
+    "issues": [
+      {
+        "type": "Improper Access Control",
+        "function": "Invoke",
+        "contract": "AssetTransfer",
+        "location": "chaincode/asset_transfer.go:88",
+        "severity": "High",
+        "description": "No role verification before allowing asset update"
+      }
+    ]
+  }
+}
+

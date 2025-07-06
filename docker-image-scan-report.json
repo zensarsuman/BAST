@@ -1,0 +1,27 @@
+{
+  "Results": [
+    {
+      "Target": "bast-app (alpine 3.15)",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2022-23219",
+          "PkgName": "glibc",
+          "InstalledVersion": "2.34",
+          "FixedVersion": "2.35",
+          "Severity": "HIGH",
+          "Title": "glibc memory corruption",
+          "Description": "Possible heap-based buffer overflow"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-3446",
+          "PkgName": "openssl",
+          "InstalledVersion": "1.1.1",
+          "FixedVersion": "1.1.1s",
+          "Severity": "CRITICAL",
+          "Description": "Improper verification in DTLS"
+        }
+      ]
+    }
+  ]
+}
+
